@@ -1,0 +1,1120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Binh\Public</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>03/04/2019 00:09:54</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>03/04/2019 00:09:54</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>02/03/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>02/03/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>07/12/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>10/03/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>10/03/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>09/03/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>10/03/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>10/03/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>09/03/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>03/04/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>03/04/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>03/04/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 13:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 13:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 13:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2015 13:16:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/08/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 13:00:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/02/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>10/09/2013 17:28:38</publishTime>
+    </File>
+    <File Include="bin/WebSupperMarket.dll">
+      <publishTime>03/18/2019 09:28:56</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/04/2019 06:17:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>03/04/2019 06:17:22</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>03/04/2019 06:17:22</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>03/04/2019 00:09:38</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>03/04/2019 06:49:34</publishTime>
+    </File>
+    <File Include="Content/swiper.css">
+      <publishTime>03/04/2019 06:34:02</publishTime>
+    </File>
+    <File Include="Content/sys_page/css/css-vinid-50.css">
+      <publishTime>03/18/2019 01:05:15</publishTime>
+    </File>
+    <File Include="Content/sys_page/css/sp-style.css">
+      <publishTime>03/18/2019 01:05:31</publishTime>
+    </File>
+    <File Include="Content/sys_page/css/style.min.f1a291d105906507.css">
+      <publishTime>03/18/2019 06:41:04</publishTime>
+    </File>
+    <File Include="Content/sys_page/css/tab-borderround-77.css">
+      <publishTime>03/18/2019 01:05:20</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/adr-icon-v1.1.woff2">
+      <publishTime>03/18/2019 01:17:31</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/download.woff">
+      <publishTime>03/18/2019 01:17:31</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/glyphicons-halflings-regular %281%29.woff">
+      <publishTime>03/18/2019 06:31:28</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/glyphicons-halflings-regular.eot">
+      <publishTime>03/18/2019 06:31:04</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/glyphicons-halflings-regular.svg">
+      <publishTime>03/18/2019 06:31:10</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/glyphicons-halflings-regular.ttf">
+      <publishTime>03/18/2019 06:31:16</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/glyphicons-halflings-regular.woff">
+      <publishTime>03/18/2019 01:17:31</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/glyphicons-halflings-regular.woff2">
+      <publishTime>03/18/2019 06:31:32</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/polish-version-adayroi.d4e79383a963f1ac.woff">
+      <publishTime>03/18/2019 01:17:31</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/roboto-v18-latin-ext_vietnamese-300.woff2">
+      <publishTime>03/18/2019 01:17:31</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/roboto-v18-latin-ext_vietnamese-500.woff2">
+      <publishTime>03/18/2019 01:17:31</publishTime>
+    </File>
+    <File Include="Content/sys_page/font/roboto-v18-latin-ext_vietnamese-700.woff2">
+      <publishTime>03/18/2019 01:17:31</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/10222894743582.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/11564092096542.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/12680128364574.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/12864631668766.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/13156951228446.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/13304035901470.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/15252675231774.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/15796920188958.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/16033572552734.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/16385922301982.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/16515430350878.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/16908602933278.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17037744930846.png">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17048985436190.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17048985468958.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17048985501726.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17049023938590.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17057917599774.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17057917632542.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17057917665310.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17071319023646.png">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17077969354782.png">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17078253191198.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17078253223966.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17078253256734.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17078253289502.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17078253355038.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17078261481502.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17078466215966.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17078466641950.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17087074402334.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17098396237854.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17098396270622.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17098396303390.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17106454937630.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17114282098718.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17120317112350.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17120317210654.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17125796315166.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130279895070.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130279927838.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130285760542.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130285858846.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130287595550.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130873159710.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130873192478.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130873258014.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130873323550.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130873618462.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130873749534.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130873815070.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130873880606.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130874044446.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130874109982.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130875322398.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130875715614.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130877681694.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/17130877747230.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/9487718613022.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/9502582964254.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/9530832683038.jpg">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/avatar_simple_visitor.png">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/banner_01.jpg">
+      <publishTime>03/18/2019 08:33:57</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/banner_02.jpg">
+      <publishTime>03/18/2019 08:34:22</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/banner_03.jpg">
+      <publishTime>03/18/2019 08:34:44</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/cho-chang-min.png">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/deal-hot-min.png">
+      <publishTime>03/18/2019 01:18:51</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/images_sprites_v1.8.png">
+      <publishTime>03/18/2019 06:23:30</publishTime>
+    </File>
+    <File Include="Content/sys_page/image/logo.png">
+      <publishTime>03/18/2019 08:23:32</publishTime>
+    </File>
+    <File Include="Content/sys_page/js/squery.min.js">
+      <publishTime>03/18/2019 01:14:29</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/04/2019 00:09:38</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/04/2019 00:09:38</publishTime>
+    </File>
+    <File Include="image/Adayroi.com  Trung tâm thuong mi din t ca Vingroup - Adayroi.com - Google Chrome.jpg">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="image/bhxdesk%402x.v201902272013.png %281000×530%29 - Google Chrome.jpg">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="image/bhxdesk%402x.v201902281454.png">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="image/dau-an-21112018143840.png">
+      <publishTime>03/04/2019 06:17:23</publishTime>
+    </File>
+    <File Include="image/images_sprites_v1.8.png">
+      <publishTime>03/18/2019 05:48:29</publishTime>
+    </File>
+    <File Include="image/menu/bhxdesk%402x.v201902272013.png %281000×530%29 - Google Chrome.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/bia-2111201814350.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/dau-an-21112018143840.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/duong-14112018174645.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/mi-2111201814245.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/nuoc-mam-201812211542145169.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/nuoc-ngot-2111201814128.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/nuoc-suoi-khoang-2111201814493.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/sua-co-gai-ha-lan-cao-khoe-tang-dong-ho-led-1901201992426.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/sua-dac-2111201814430.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/sua-tam-1411201892055.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/sua-tuoi-2111201814021.png">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/menu/vfresh-mua-1-tang-1-2702201983352.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/news/cach-lam-mi-cay-3-cap-do-sieu-ngon-cang-an-cang-ghien-5_760x367-300x200.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/news/cha-me-co-the-choi-nhung-tro-nay-cung-con-thay-vi-cho-tre-xem-youtube-thumb_760x367-300x200.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/news/chat-dieu-vi-la-gi-co-trong-thuc-pham-nao-va-co-gay-hai-cho-suc-khoe-khong-1152438.htm">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/news/cu-dan-mang-canh-bao-video-doc-hai-cho-tre-em-tren-youtube-thumb_760x367-300x200.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/news/gao-mam-vibigaba-la-gi-loi-ich-cua-gao-mam-vibigaba-doi-voi-suc-khoe-thumb_760x367-300x200.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/bo-2-ban-chai-oral-clean-mem-manh-21112018105219.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/kem-chong-nang-senka-chong-nang-spf-50-pa-80ml-201901230942516473_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/kem-danh-rang-p-s-than-hoat-tinh-bao-ve-123-180g-201901041610134510_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/kem-duong-hada-labo-avatar-1-300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/khan-uot-em-be-tini-goi-80-to-201812270920252434_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/loc-4-hop-sua-bot-pha-san-dielac-grow-plus-co-duong-hop-110ml-201901080904502291_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/nuoc-rua-tay-lifebuoy-cham-soc-da-huong-sua-tu-nhien-chai-493ml-201901081439057183_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/sua-dau-nanh-vinamilk-goldsoy-hop-1-lit-201812021326199542_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/sua-tam-goi-cho-be-johnson-johnson-baby-top-to-toe-huong-phan-200ml-201811231428357921_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/sua-trai-cay-twister-cam-chai-290ml-201811231143017191_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/sua-trai-cay-twister-dau-chai-290ml-201811231142455347_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/thung-48-bich-sua-tuoi-tiet-trung-th-true-milk-khong-duong-220ml-201901061442465444_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/thung-48-hop-sua-bot-pha-san-dielac-grow-plus-hop-110ml-201901150853259952_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/product/thung-sua-trai-cay-twister-huong-dau-chai-290ml-24-chai-201901071103069626_300x300.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/sua-co-gai-ha-lan-cao-khoe-tang-dong-ho-led-1901201992426.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="image/vfresh-mua-1-tang-1-2702201983352.jpg">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>03/04/2019 06:16:38</publishTime>
+    </File>
+    <File Include="Models/Adayroi.com _ Trung tâm thương mại điện tử của Vingroup - Adayroi.com.html">
+      <publishTime>03/18/2019 00:59:30</publishTime>
+    </File>
+    <File Include="Models/HomePage/10222894743582.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/11564092096542.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/12680128364574.jpg">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/12864631668766.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/13156951228446.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/13304035901470.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/15252675231774.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/15796920188958.jpg">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/16033572552734.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/16385922301982.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/16515430350878.jpg">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/16908602933278.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17037744930846.png">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17048985436190.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17048985468958.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17048985501726.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17049023938590.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17057917599774.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17057917632542.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17057917665310.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17071319023646.png">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17077969354782.png">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17078253191198.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17078253223966.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17078253256734.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17078253289502.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17078253355038.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17078261481502.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17078466215966.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17078466641950.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17087074402334.jpg">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/17098396237854.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17098396270622.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17098396303390.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17106454937630.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17114282098718.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17120317112350.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17120317210654.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17125796315166.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130279895070.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130279927838.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130285760542.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130285858846.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130287595550.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130873159710.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130873192478.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130873258014.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130873323550.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130873618462.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130873749534.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130873815070.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130873880606.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130874044446.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130874109982.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130875322398.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130875715614.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130877681694.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/17130877747230.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/3e048a051e">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/766963776744234">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/8984.js.download">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/9487718613022.jpg">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/9502582964254.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/9530832683038.jpg">
+      <publishTime>03/17/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Models/HomePage/acc.locationdata.mini.3ep5ayjmxeudz9f7.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/akamai_tracking-125.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/analytics.js.download">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/avatar_simple_visitor.png">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/buynow-128.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/cho-chang-min.png">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/css-vinid-50.css">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/deal-hot-min.png">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/dis.html">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/event">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/external_files.min.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/f%281%29.txt">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/f.txt">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/fbevents.js.download">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/flashcarousel-94.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/gtm.js.download">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/hybris.min.fa2271fa95d1d123.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/ins.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/ld.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/ma-giam-gia-min.png">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/MH9HW-Q8D8R-7TCRR-9RDQE-X9SEF">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/nap-the-min.png">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/nr-1118.min.js.download">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/of7JKezoyleZ0qSgegkE1543353354.png">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/pixel.html">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/Resonance.aspx">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/resonance.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/saved_resource">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/saved_resource%281%29.html">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/saved_resource%282%29.html">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/saved_resource.html">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/sp-style.css">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/squery.min.js.download">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/style.min.f1a291d105906507.css">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/subscribe email-box-adayroi.png">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/tab-borderround-77.css">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/tags.html">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/vendors.min.2efec5abeef23f12.js.download">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/vfF1HQRly4NcVnReChEN1543350643-min.png">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/vsmart-min.png">
+      <publishTime>03/18/2019 00:38:02</publishTime>
+    </File>
+    <File Include="Models/HomePage/worker%281%29.html">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="Models/HomePage/worker.html">
+      <publishTime>03/18/2019 00:38:03</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/04/2019 06:14:15</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.js">
+      <publishTime>03/04/2019 00:09:54</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>03/04/2019 00:09:54</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>03/04/2019 00:09:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>03/04/2019 00:09:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>03/04/2019 00:09:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/04/2019 00:09:43</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>03/04/2019 00:09:42</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>03/04/2019 00:09:42</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>03/04/2019 00:09:42</publishTime>
+    </File>
+    <File Include="Scripts/script.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/swiper.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>03/04/2019 06:17:24</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>03/18/2019 01:22:34</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/18/2019 06:41:04</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/04/2019 00:09:44</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>03/18/2019 05:56:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_Footer.cshtml">
+      <publishTime>03/18/2019 00:44:56</publishTime>
+    </File>
+    <File Include="Views/Shared/_Header.cshtml">
+      <publishTime>03/18/2019 06:50:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/18/2019 09:28:36</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>03/04/2019 00:09:44</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/04/2019 00:09:38</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/18/2019 01:24:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/04/2019 06:54:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
